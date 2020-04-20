@@ -9,10 +9,14 @@ Suppose you have a web server and a website hosted on that server. genRSS can be
 The following command launches an HTTP server that serves the current directory
 
     python -m SimpleHTTPServer
+    #or python3
+    python python -m http.server
 
 The server will be listening on port 8000 (default). You can also spicify the port as an argument:
 
     python -m SimpleHTTPServer 8080
+    #or python3
+    python -m http.server 8080
 
 Go to a web browser and type: http://localhost:8080/ . You should get a web page listing of all elements in current directory .
 

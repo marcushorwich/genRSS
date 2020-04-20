@@ -10,7 +10,7 @@ The following command launches an HTTP server that serves the current directory
 
     python -m SimpleHTTPServer
     #or python3
-    python python -m http.server
+    python -m http.server
 
 The server will be listening on port 8000 (default). You can also spicify the port as an argument:
 
